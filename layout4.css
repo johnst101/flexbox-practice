@@ -22,13 +22,24 @@
  justify-content: space-between;
 }
 
+.box-small{
+  border: 2px solid lightgray;
+  height: 50px;
+}
+
+.tiny-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-tiny{
+  border: 2px solid lightgray;
+  height: 50px;
+  width: 30%;
+}
+
 .box{
   border: 2px solid lightgray;
   width: 48%;
   height: 200px;
-}
-
-.box-small{
-  border: 2px solid lightgray;
-  height: 50px;
 }
